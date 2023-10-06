@@ -20,7 +20,6 @@ export const Expenses = () => {
 
   return (
     <Card className='expenses'>
-        <h2>Mul on liiga palju väljaminekuid!</h2>
           {expenses.map((ob) => (
             <ExpenseItem date={ob.date} title={ob.title} price={ob.price}/>
           ))}
