@@ -16,6 +16,11 @@ export const Expenses = () => {
         "date" : new Date(2023, 0, 10),
         "title" : "New Jeans",
         "price" : "35.99"
+      },
+      {
+        "date": new Date(2023, 9, 23),
+        "title": "New TV",
+        "price": "399.99"
       }
     ]
 
