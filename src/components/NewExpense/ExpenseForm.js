@@ -43,6 +43,7 @@ const ExpenseForm = (props) => {
             enteredAmount:'',
             enteredDate:''
         })
+        props.setFormOpen(false)
     }
 
 
@@ -67,6 +68,7 @@ const ExpenseForm = (props) => {
         </div>
         <div>
             <button type="submit">Add Expense</button>
+            <button onClick={() => props.setFormOpen(false)}>Cancel</button>
         </div>
     </form>
   )
